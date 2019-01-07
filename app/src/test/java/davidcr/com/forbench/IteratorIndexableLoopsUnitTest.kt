@@ -8,7 +8,7 @@ import kotlin.system.measureNanoTime
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+class IteratorIndexableLoopsUnitTest {
 
     @Test
     fun listIndexedTest() {
@@ -17,6 +17,7 @@ class ExampleUnitTest {
         println("ForLoop Time: " + measureNanoTime {
             for (i in list) {
                 //do something
+
             }
         })
     }
